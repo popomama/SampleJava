@@ -28,4 +28,11 @@ public class Math {
 		return a/b;
 	}
 
+	public double Div(int a, int b)
+	{
+		if(b!=0)
+			return (double)a/b;
+		else 
+			return 0.0;
+	}
 }
