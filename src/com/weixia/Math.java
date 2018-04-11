@@ -18,11 +18,11 @@ public class Math {
 		return a+b;
 	}
 
-	public double Div(int a, int b)
+	public double Div(int a, int b) throws Exception
 	{
 		if(b!=0)
 			return (double)a/b;
 		else 
-			return 0.0;
+			throw new Exception("divided by 0");
 	}
 }
