@@ -12,5 +12,10 @@ public class Math {
 		System.out.println(ms.getMessage());
 		
 	}
+	
+	public int Add(int a , int b)
+	{
+		return a+b;
+	}
 
 }
