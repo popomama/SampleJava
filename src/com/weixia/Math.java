@@ -34,4 +34,9 @@ public class Math {
 	{
 		return a*b;
 	}
+	
+	public int Neg(int a)
+	{
+		return -a;
+	}
 }
