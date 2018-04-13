@@ -30,4 +30,8 @@ public class Math {
 		else 
 			throw new Exception("divided by 0");
 	}
+	public int Mult(int a , int b)
+	{
+		return a*b;
+	}
 }
